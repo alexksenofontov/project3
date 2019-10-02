@@ -14,6 +14,10 @@ def white_pole():
     pygame.draw.rect(screen, (255, 255, 255), (110, 100, 300, 100), 0)
 
 
+def red_pole():
+    pygame.draw.rect(screen, (255, 0, 0), (110, 300, 300, 100), 0)
+
+
 pygame.init()
 
 size = width, height = 800, 600
@@ -22,6 +26,7 @@ screen.fill((0, 0, 0))
 flag_pole()
 blue_pole()
 white_pole()
+red_pole()
 pygame.draw.rect(screen, (255, 255, 255), (110, 100, 300, 300), 1)
 pygame.display.flip()
 while pygame.event.wait().type != pygame.QUIT:
