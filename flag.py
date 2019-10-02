@@ -11,7 +11,7 @@ pygame.init()
 size = width, height = 800, 600
 screen = pygame.display.set_mode(size)
 screen.fill((0, 0, 0))
-flagpole()
+flag_pole()
 pygame.display.flip()
 while pygame.event.wait().type != pygame.QUIT:
     pass
