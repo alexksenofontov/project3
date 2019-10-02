@@ -23,6 +23,8 @@ flag_pole()
 blue_pole()
 white_pole()
 pygame.draw.rect(screen, (255, 255, 255), (110, 100, 300, 300), 1)
+pygame.draw.rect(screen, (255, 255, 255), (110, 200, 300, 100), 1)
+pygame.draw.rect(screen, (255, 255, 255), (110, 100, 300, 100), 1)
 pygame.display.flip()
 while pygame.event.wait().type != pygame.QUIT:
     pass
